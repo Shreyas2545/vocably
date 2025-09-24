@@ -49,10 +49,16 @@ function App() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-blue-700 to-purple-600 p-5 pt-10">
-      <div className="flex flex-col items-center text-center space-y-6 w-full max-w-sm">
+    <div
+      className="flex justify-center items-center min-h-screen p-5 pt-10 "
+      style={{
+        background:
+          "linear-gradient(to right, #292E49, #536976, #BBD2C5)",
+      }}
+    >
+      <div className="flex flex-col items-center text-center space-y-6 w-full max-w-sm mb-40">
         {/* Title */}
-        <h1 className="text-5xl font-bold text-white">Dictionary</h1>
+        <h1 className="text-5xl font-bold text-white ">Dictionary</h1>
 
         {/* Search Form */}
         <form
@@ -64,7 +70,7 @@ function App() {
             placeholder="Search a word"
             value={word}
             onChange={(e) => setWord(e.target.value)}
-            className="w-full p-4 rounded-lg text-center text-black placeholder-gray-500 outline-none focus:ring-2 focus:ring-purple-400"
+            className="w-full p-4 border-purple-400 rounded-lg text-center text-black placeholder-gray-900 outline-none focus:ring-2 focus:ring-purple-400"
           />
           <button
             type="submit"
