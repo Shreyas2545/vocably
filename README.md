@@ -22,8 +22,10 @@
 
 ## 📸 Screenshots  
 
-### 🔹 Home Screen (before search)  
+### 🔹 Home Screen (before search)    
+![Word Details](https://github.com/Shreyas2545/vocably/blob/f1a2d80469921c7e01b03664356320bc68e68485/assets/After_search.png?raw=true)
+
+### 🔹Word Details (after search
 ![Home Screen](https://github.com/Shreyas2545/vocably/blob/f1a2d80469921c7e01b03664356320bc68e68485/assets/Before_search.png?raw=true)  
 
-### 🔹 Word Details (after search)  
-![Word Details](https://github.com/Shreyas2545/vocably/blob/f1a2d80469921c7e01b03664356320bc68e68485/assets/After_search.png?raw=true)
+
